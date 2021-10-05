@@ -1,5 +1,10 @@
 # Random-Quote-Machine
-FreeCodeCamp's project #1 of "Front End Development Libraries".
+[FreeCodeCamp][^1]'s project #1 of "Front End Development Libraries".
+
+**TODO:**
+
+- [ ] Add summary on README.md after project completed.
+- [ ] Add Tweet button on quote machine
 
 ## Initial Setup: Local Development Environment
 
@@ -47,3 +52,8 @@ http://localhost:3000
 - [FreeCodeCamp Project: Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
 - [Create React App Docs](https://create-react-app.dev/docs/documentation-intro)
 - [Create React App Tutorial](https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial)
+
+---
+
+[^1]: https://www.freecodecamp.org/learn/	"A friendly community where you can learn for free"
+
