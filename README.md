@@ -5,6 +5,8 @@
 
 - [ ] Add summary on README.md after project completed.
 - [ ] Add Tweet button on quote machine
+- [ ] Research on how to apply mixins & extends in `SCSS`
+- [ ] Research on how to use `api` in javascript
 
 ## Initial Setup: Local Development Environment
 
