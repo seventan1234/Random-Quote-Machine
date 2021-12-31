@@ -1,0 +1,50 @@
+.App {
+	background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/*  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+p {
+	color: white;
+}
+
+
+#quote-box {  
+  display: grid;
+  grid:
+    "text text" minmax(40vh, auto)
+    "author author"
+    "tweet button" / 1fr 1fr;
+	grid-gap: 1rem;
+	width: 65%;
+	justify-content: center;
+}
+#text {
+  grid-area: text;
+  font-size: 1.8rem;
+	font-weight: bold;
+	padding: 1.25rem;
+}
+.large-quote-mark {
+	font-size: 4rem;
+	font-family: arial;
+	font-weight: 700;
+}
+#author {
+  grid-area: author;
+}
+#tweet-quote {
+  grid-area: tweet;
+
+  padding: 0.75rem;
+  background-color: #1c98eb;
+  text-decoration: none;
+  font: 1.25rem Verdana, sans-serif;
+}
+#new-quote {
+  grid-area: button;
+}
