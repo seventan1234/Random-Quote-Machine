@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//
+import QuoteMachine from './quoteMachine';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+		<QuoteMachine />
+  	<App />
   </React.StrictMode>,
   document.getElementById('root')
 );
